@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 200px 200px 200px;
+            gap: 40px;
+            padding: 0;margin: 0;
+        }
+        .first>img{float: right;}
+        .therd>img{float: right;}
+        .second>img{float: left;}
+        .four>img{float: left;gap: 20px;}
+        .grid>*{text-align: center;background-color:darkgray;border-radius: 35%;}
+        .five{grid-column: span 2;}
+        .five>img{padding-right: 620px;float: right;}
+
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div  class="first"><img src="./atoshow.jpeg" height="200px"><h1>AUTOSHOW</h1><p>Witness electrifying robot games and showcase your skills against the best. But that's not all - the excitement doesn't end there! With a chance to win some exciting prizes, Robofiesta is the perfect motivation to unleash your inner robotic genius. Real-world simulations of games played in virtual worlds.</p></div>
+        <div class="second"><img src="./automass.jpeg" height="200px"><H1>AUTOMAX</H1><p>The chance of realising your potential and proving your worth is here! Making things has never been this feasible. Put on your tool belts, as the creation takes a new plight and the Era of innovation resurrects. Allow your mind to astound and your inner competitor to awaken.
+        </p></div>
+        <div class="therd"><img src="./mak-a-thon.jpeg" height="200px"><H1>MAKE-A-THON</H1><P>The chance of realising your potential and proving your worth is here! Making things has never been this feasible. Put on your tool belts, as the creation takes a new plight and the Era of innovation resurrects. Allow your mind to astound and your inner competitor to awaken.
+        </P></div>
+         <div class="four"><img src="./robofiesta.jpeg" height="200px"><h1>ROBOFIESTA</h1>Witness electrifying robot games and showcase your skills against the best. But that's not all - the excitement doesn't end there! With a chance to win some exciting prizes, Robofiesta is the perfect motivation to unleash your inner robotic genius. Real-world simulations of games played in virtual worlds.</div>
+         <div class="five"><img src="./inforbo.jpeg" height="200px"><h1>INFORBO</h1>The chance of realising your potential and proving your worth is here! Making things has never been this feasible. Put on your tool belts, as the creation takes a new plight and the Era of innovation resurrects. Allow your mind to astound and your inner competitor to awaken.
+         </div>
+    </div>
+</body>
+</html>
